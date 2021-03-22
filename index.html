@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<link href="/styles.css" rel="stylesheet"/>
+
+<body>
+    <header class="container">
+            
+                <img class="code-icon" src="https://uxwing.com/wp-content/themes/uxwing/download/07-design-and-development/web-code.png"/>
+                <div class="title">ONLINE CODE EDITOR</div>
+                <div class="tabs">
+                    <a class="tab-btn" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Login/Register</a>
+                    <a class="tab-btn" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Blog</a>
+                    <a class="tab-btn" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit">Help</a>
+                </div>  
+            </header>
+<div class="codeContainer">
+    <div>
+        <ul class="list-item">
+            <li class="list-item-inline "><button class="toggle">HTML</button></li>
+            <li class="list-item-inline"><button class="toggle" id="b2" >CSS</button></li>
+            <li class="list-item-inline"><button class="toggle" id="b3">JavaScript</button></li>
+            <button class=" toggle run-btn">Run</button>
+        </ul>
+    </div>
+    
+    <table>
+        <tr>
+            <td><textarea  id="tab1" placeholder="HTML"></textarea></td>
+            <td><textarea  id="tab2" placeholder="CSS"></textarea></td>
+            <td><textarea id="tab3" placeholder="JavaScript"></textarea></td>
+        </tr>
+    </table>
+    <span style="font-weight: bold; font-size: 1.5rem;">Output</span>
+    <iframe class="iframe-css" id="myframe"></iframe>
+</div>
+</body>
+</html>
