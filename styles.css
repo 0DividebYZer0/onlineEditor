@@ -72,4 +72,5 @@ textarea{
     text-align: center;
     border: solid 1px;
     width: 102%;
+    overflow: scroll;
 }
